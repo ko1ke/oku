@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.1.3'
+ruby '2.3.6'
 
 gem 'rails', '4.1.6'
 gem 'sass-rails', '~> 4.0.3'
@@ -32,6 +32,7 @@ group :development do
   gem 'pry-rails'
   gem 'quiet_assets'
   gem 'spring'
+  gem 'rails-erd'
 end
 
 group :development, :test do
