@@ -1,3 +1,17 @@
+# == Schema Information
+#
+# Table name: evaluations
+#
+#  id           :integer          not null, primary key
+#  evaluater_id :integer
+#  evaluatee_id :integer
+#  comment      :text
+#  created_at   :datetime
+#  updated_at   :datetime
+#  auction_id   :integer
+#  point        :integer          default(0)
+#
+
 class Evaluation < ActiveRecord::Base
   extend Enumerize
   enumerize :point, in: {bad: -1, good: 1}, scope: true

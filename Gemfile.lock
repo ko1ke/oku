@@ -28,6 +28,9 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     addressable (2.3.7)
+    annotate (2.7.4)
+      activerecord (>= 3.2, < 6.0)
+      rake (>= 10.4, < 13.0)
     arel (5.0.1.20140414130214)
     autoprefixer-rails (5.1.7.1)
       execjs
@@ -240,6 +243,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  annotate
   bcrypt
   better_errors
   binding_of_caller

@@ -33,6 +33,7 @@ group :development do
   gem 'quiet_assets'
   gem 'spring'
   gem 'rails-erd'
+  gem 'annotate'
 end
 
 group :development, :test do
